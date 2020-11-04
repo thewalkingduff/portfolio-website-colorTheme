@@ -327,7 +327,7 @@ h6 {
 
 #skills {
 	display: flex;
-	justify-content: space-evenly;
+	justify-content: space-around;
 	background-color: var(--previewShadow);
 }
 
@@ -338,7 +338,8 @@ h6 {
 }
 
 #social_img {
-	width: 100%;
+	width: 80%;
+	text-align: center;
 }
 
 .social-icons {
