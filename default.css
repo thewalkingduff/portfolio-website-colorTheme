@@ -453,11 +453,21 @@ h6 {
 
 #inTouch {
 	padding-top: 50px;
+	display: block;
+	max-width: 800px;
+	margin: 0 auto;
+	/* border: 1px solid var(--borderColor); */
+	padding: 15px;
+	/* border-radius: 5px;
+	background-color: var(--mainColor); */
+	margin-bottom: 50px;
+
 }
 
 #devDuffy {
+	font-size: 24px;
 	text-align: center;
-	padding: 35px 0 50px 0;
+	padding: 0 0 50px 0;
 }
 
 
