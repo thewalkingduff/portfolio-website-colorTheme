@@ -450,9 +450,13 @@ h6 {
 	border: none;
 }
 
+#inTouch {
+	padding-top: 50px;
+}
+
 #devDuffy {
 	text-align: center;
-	padding: 50px 0;
+	padding: 35px 0 50px 0;
 }
 
 
