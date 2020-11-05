@@ -511,7 +511,7 @@ hr {
 
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 412px) {
 	#preview-shadow {
 		max-width: 280px;
 		height: 180px;
@@ -522,6 +522,16 @@ hr {
 	#preview {
 		width: 280px;
 
+	}
+
+	.social-icons {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+		column-gap: 10px;
+		/* grid-template-columns: repeat(4, 1fr); */
+		/* text-align: center; */
+		margin: 5px 0;
+		font-size: 2.5em;
 	}
 
 }
