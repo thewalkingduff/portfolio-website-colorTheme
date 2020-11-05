@@ -362,30 +362,37 @@ hr {
 
 .social-icons {
 	display: grid;
-	grid-template-columns: repeat(4, 1fr);
+	grid-template-rows: auto;
+	row-gap: 50px;
+	/* grid-template-columns: repeat(4, 1fr); */
 	/* text-align: center; */
-	padding-top: 50px;
+	margin: 20px 0;
+	font-size: 4em;
 }
 
 #github {
 	color: #24292e;
-	font-size: 3em;
+	/* font-size: 3em; */
 }
 
 #twitter {
 	color: #00acee;
-	font-size: 3em;
+	/* font-size: 3em; */
 
 }
 
 #linkedin {
 	color: #0E76A8;
-	font-size: 3em;
+	/* font-size: 3em; */
 }
 
 #facebook {
 	color: #3b5998;
-	font-size: 3em;
+	/* font-size: 3em; */
+}
+
+#youtube {
+	color: #FF0000;
 }
 
 .post-wrapper {
