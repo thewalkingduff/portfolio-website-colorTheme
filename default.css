@@ -108,9 +108,10 @@ ul {
 
 #webDevDuffy {
   /* display: inline-block; */
-  height: 75px;
-  width: 85px;
-  padding: 15px 0 0 15px;
+  height: 44.5px;
+  width: 132.75px;
+  margin: 15px 0 0 15px;
+  /* padding: 15px 0 0 15px; */
 }
 
 nav {
@@ -219,11 +220,20 @@ nav {
 }
 
 #devDuffy {
-  font-size: 24px;
+  font-size: 14px;
   text-align: center;
   color: var(--mainText);
   font-family: 'Russo One', sans-serif;
   font-weight: 500;
+}
+
+#smile {
+  height: 125px;
+  width: 125px;
+}
+
+#email {
+  padding-top: 1%;
 }
 
 @media only screen and (max-width: 700px) {
