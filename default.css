@@ -236,3 +236,21 @@ nav {
     text-align: center;
   }
 }
+
+@media only screen and (min-width: 650px) {
+  .post-wrapper {
+    margin: 0 10%;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .post-wrapper {
+    margin: 0 15%;
+  }
+}
+
+@media only screen and (min-width: 1400px) {
+  .post-wrapper {
+    margin: 0 20%;
+  }
+}
