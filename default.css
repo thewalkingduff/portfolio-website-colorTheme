@@ -180,8 +180,11 @@ nav {
 
 .post-wrapper {
   display: grid;
-  grid-template-columns: repeat(auto-fit, 320px);
-  gap: 20px;
+  /* grid-template-columns: repeat(auto-fit, 320px); */
+  /* grid-template-columns: 1fr 1fr; */
+  grid-template-rows: 1fr;
+  gap: 50px;
+  margin: 0 10%;
   justify-content: center;
   padding-bottom: 50px;
 }
@@ -194,10 +197,10 @@ nav {
 }
 
 .thumbnail {
-  display: block;
-  width: 100%;
-  height: 180px;
-  object-fit: cover;
+  /* display: block; */
+  width: 67%;
+  height: 67%;
+  /* object-fit: cover; */
 }
 
 .post-preview {
@@ -237,7 +240,7 @@ nav {
   }
 }
 
-@media only screen and (min-width: 650px) {
+/* @media only screen and (min-width: 650px) {
   .post-wrapper {
     margin: 0 10%;
   }
@@ -253,4 +256,4 @@ nav {
   .post-wrapper {
     margin: 0 20%;
   }
-}
+} */
