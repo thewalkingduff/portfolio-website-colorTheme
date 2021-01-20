@@ -173,7 +173,8 @@ nav {
 }
 
 .fab {
-  color: black; /* All icons within the fa-stack are red by default. */
+  color: black;
+  /* All icons within the fa-stack are red by default. */
 }
 
 #portfolio {
@@ -182,8 +183,6 @@ nav {
 
 .post-wrapper {
   display: grid;
-  /* grid-template-columns: repeat(auto-fit, 320px); */
-  /* grid-template-columns: 1fr 1fr; */
   grid-template-rows: 1fr;
   gap: 50px;
   margin: 0 10%;
@@ -197,10 +196,6 @@ nav {
   -moz-box-shadow: -2px 7px 21px -9px rgba(0, 0, 0, 0.75);
   box-shadow: -2px 7px 21px -9px rgba(0, 0, 0, 0.75);
   transition: 0.5s;
-}
-
-.post:hover {
-  transform: translateY(-15px);
 }
 
 .thumbnail {
@@ -239,59 +234,6 @@ nav {
   cursor: pointer;
 }
 
-#smile:hover {
-  color: #afafaf;
-  -moz-animation: spin 0.4s 1 linear;
-  -o-animation: spin 0.4s 1 linear;
-  -webkit-animation: spin 0.4s 1 linear;
-  animation: spin 0.4s 1 linear;
-}
-
-@-webkit-keyframes spin {
-  0% {
-    -webkit-transform: rotate(0deg);
-  }
-  100% {
-    -webkit-transform: rotate(359deg);
-  }
-}
-
-@-moz-keyframes spin {
-  0% {
-    -moz-transform: rotate(0deg);
-  }
-  100% {
-    -moz-transform: rotate(359deg);
-  }
-}
-
-@-o-keyframes spin {
-  0% {
-    -o-transform: rotate(0deg);
-  }
-  100% {
-    -o-transform: rotate(359deg);
-  }
-}
-
-@-ms-keyframes spin {
-  0% {
-    -ms-transform: rotate(0deg);
-  }
-  100% {
-    -ms-transform: rotate(359deg);
-  }
-}
-
-@keyframes spin {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(359deg);
-  }
-}
-
 #email {
   padding-top: 1%;
 }
@@ -300,10 +242,12 @@ nav {
   #webDevDuffy {
     display: none;
   }
+
   .socialtop {
     float: none;
     margin-right: 0;
   }
+
   nav {
     display: block;
     text-align: center;
