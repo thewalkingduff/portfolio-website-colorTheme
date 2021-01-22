@@ -132,18 +132,15 @@ nav {
 .s1 {
   background-color: var(--mainColor);
   border-bottom: 1px solid var(--borderColor);
-  /* overflow: hidden; */
 }
 
 .s2 {
   background-color: var(--mainColor);
   border-bottom: 1px solid var(--borderColor);
-  /* overflow: hidden; */
   margin-top: 10%;
 }
 
 .main-container {
-  /* width: 1200px; */
   text-align: center;
   margin: 25px auto 50px;
   overflow: hidden;
@@ -159,7 +156,6 @@ nav {
 #social_img {
   width: 90%;
   text-align: center;
-  /* padding-right: 10em; */
 }
 
 .social-icons {
@@ -168,13 +164,11 @@ nav {
 }
 
 .icon {
-  /* padding: 10px 15px; */
   font-size: 5vh;
 }
 
 .fab {
   color: black;
-  /* All icons within the fa-stack are red by default. */
 }
 
 #portfolio {
@@ -199,10 +193,8 @@ nav {
 }
 
 .thumbnail {
-  /* display: block; */
   width: 67%;
   height: 67%;
-  /* object-fit: cover; */
 }
 
 .post-preview {
@@ -253,21 +245,3 @@ nav {
     text-align: center;
   }
 }
-
-/* @media only screen and (min-width: 650px) {
-  .post-wrapper {
-    margin: 0 10%;
-  }
-}
-
-@media only screen and (min-width: 1000px) {
-  .post-wrapper {
-    margin: 0 15%;
-  }
-}
-
-@media only screen and (min-width: 1400px) {
-  .post-wrapper {
-    margin: 0 20%;
-  }
-} */
