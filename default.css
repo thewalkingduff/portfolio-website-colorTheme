@@ -171,11 +171,17 @@ nav {
 }
 
 .fab {
-  color: black; /* All icons within the fa-stack are red by default. */
+  color: black;
+  /* All icons within the fa-stack are red by default. */
+}
+
+#about-me {
+  padding: 8% 8% 10% 8%;
+  text-align: center;
 }
 
 #portfolio {
-  padding-bottom: 75px;
+  padding: 2% 8% 10%;
 }
 
 .post-wrapper {
@@ -230,14 +236,21 @@ nav {
   #webDevDuffy {
     display: none;
   }
+
   .socialtop {
     float: none;
     margin-right: 0;
   }
+
   nav {
     display: block;
     text-align: center;
   }
+
+  h1 {
+    font-size: 1.7em;
+  }
+
 }
 
 /* @media only screen and (min-width: 650px) {
