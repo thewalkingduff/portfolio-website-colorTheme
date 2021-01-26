@@ -46,6 +46,7 @@ strong {
 }
 
 p,
+a,
 li,
 span,
 label,
@@ -104,7 +105,8 @@ ul {
 }
 
 .top-social a:hover {
-  color: grey;
+  color: #FF6B0D;
+  transition: 0.3s;
 }
 
 #webDevDuffy {
@@ -202,13 +204,17 @@ nav {
   padding: 15px;
 }
 
+.post-preview a {
+  color: #FF6B0D;
+}
+
 .post-title {
   color: black;
   margin: 0;
 }
 
 .post-intro {
-  color: #4b5156;
+  color: #4D4545;
   font-size: 14px;
 }
 
