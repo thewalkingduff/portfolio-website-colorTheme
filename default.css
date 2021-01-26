@@ -79,6 +79,7 @@ h4 {
 
 h5 {
   font-size: 20px;
+  color: #323330;
 }
 
 h6 {
@@ -198,6 +199,30 @@ nav {
   transition: 0.5s;
 }
 
+.container-skills {
+  padding: 50px;
+}
+
+.top-skills {
+  padding: 25px;
+}
+
+.top-skills i {
+  padding: 20px 50px 10px;
+}
+
+.fa-html5 {
+  color: #E44D26;
+}
+
+.fa-css3-alt {
+  color: #264de4;
+}
+
+.fa-js-square {
+  color: #F0DB4F;
+}
+
 #portfolio {
   padding: 50px 0;
 }
@@ -297,5 +322,16 @@ nav {
   nav {
     display: block;
     text-align: center;
+  }
+
+  .top-skills {
+    display: block;
+    margin: 0 auto;
+    padding: 50px 0 20px;
+  }
+
+  .top-skills i {
+    font-size: 75px;
+    padding: 20px;
   }
 }
