@@ -39,6 +39,7 @@ h3,
 h4,
 h5,
 h6,
+a,
 strong {
   color: var(--mainText);
   font-family: 'Russo One', sans-serif;
@@ -46,7 +47,6 @@ strong {
 }
 
 p,
-a,
 li,
 span,
 label,
@@ -105,8 +105,8 @@ ul {
 }
 
 .top-social a:hover {
-  color: #FF6B0D;
-  transition: 0.3s;
+  color: #03a9f4;
+  transition: 0.2s;
 }
 
 #webDevDuffy {
@@ -208,6 +208,11 @@ nav {
   color: #FF6B0D;
 }
 
+.post-preview a:hover {
+  color: #03a9f4;
+  transition: 0.5s;
+}
+
 .post-title {
   color: black;
   margin: 0;
@@ -224,6 +229,11 @@ nav {
   color: var(--mainText);
   font-family: 'Russo One', sans-serif;
   font-weight: 500;
+}
+
+#devDuffy:hover {
+  color: #03a9f4;
+  transition: 0.2s;
 }
 
 #smile {
